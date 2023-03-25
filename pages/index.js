@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
 
 export default function Home() {
   return (
@@ -19,9 +18,7 @@ export default function Home() {
                       <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Deploy faster</h2>
                       <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Everything you
                           need to deploy your app</p>
-                      <p className="mt-6 mb-2 text-base leading-7 text-gray-600">Quis tellus eget adipiscing convallis
-                          sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar et feugiat blandit
-                          at. In mi viverra elit nunc.</p>
+                      <p className="mt-6 mb-2 text-base leading-7 text-gray-600">啦啦啦啦</p>
                   </div>
                   <div className="mt-5 w-full min-w-0 flex-1 md:mt-0">
                       <dl className="grid grid-cols-1 gap-y-10 gap-x-8 md:max-w-xl lg:max-w-none lg:gap-y-16">
@@ -35,9 +32,7 @@ export default function Home() {
                               </div>
 
                               <dt className="mt-4 text-lg font-semibold leading-7 text-gray-900">Push to deploy</dt>
-                              <dd className="mt-2 text-base leading-7 text-gray-600">Morbi viverra dui mi arcu sed.
-                                  Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.
-                              </dd>
+                              <dd className="mt-2 text-base leading-7 text-gray-600">Sit</dd>
                           </div>
 
                           <div className="relative rounded-lg bg-gray-50 p-10">
@@ -49,10 +44,7 @@ export default function Home() {
                                   </svg>
                               </div>
                               <dt className="mt-4 text-lg font-semibold leading-7 text-gray-900">SSL certificates</dt>
-                              <dd className="mt-2 text-base leading-7 text-gray-600">Sit quis amet rutrum tellus
-                                  ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus
-                                  amet.
-                              </dd>
+                              <dd className="mt-2 text-base leading-7 text-gray-600">啦啦啦</dd>
                           </div>
 
                           <div className="relative rounded-lg bg-gray-50 p-10">
@@ -64,9 +56,7 @@ export default function Home() {
                                   </svg>
                               </div>
                               <dt className="mt-4 text-lg font-semibold leading-7 text-gray-900">Simple queues</dt>
-                              <dd className="mt-2 text-base leading-7 text-gray-600">Quisque est vel vulputate cursus.
-                                  Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.
-                              </dd>
+                              <dd className="mt-2 text-base leading-7 text-gray-600">啦啦啦</dd>
                           </div>
 
                           <div className="relative rounded-lg bg-gray-50 p-10">
@@ -78,9 +68,8 @@ export default function Home() {
                                   </svg>
                               </div>
                               <dt className="mt-4 text-lg font-semibold leading-7 text-gray-900">Advanced security</dt>
-                              <dd className="mt-2 text-base leading-7 text-gray-600">Arcu egestas dolor vel iaculis in
-                                  ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra
-                                  eget.
+                              <dd className="mt-2 text-base leading-7 text-gray-600">
+                                  啦啦啦
                               </dd>
                           </div>
                       </dl>
