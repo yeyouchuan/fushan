@@ -9,11 +9,11 @@ export default function Products({Introduction, Image, blocks}) {
                 <title>赴山茶市</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main>
+            <main className="">
                 <div className="bg-white py-0">
                     <div className="mx-auto flex max-w-7xl flex-col items-start gap-6 md:flex-row">
                         <div className="w-full max-w-[300px] md:sticky md:top-10 md:w-[28rem]">
-                            <a href="http://localhost:3000/" className="text-md leading-8 tracking-tight underline underline-offset-2">赴山茶市</a>
+                            <a href="/" className="text-md leading-8 tracking-tight underline underline-offset-2">赴山茶市</a>
                             <p className="mt-10 text-md tracking-tight">[最新简讯]</p>
                             <p className="mt-6">
                                 赴山茶市首先是个工作小组，因为我们相信做产品的人更重要。
