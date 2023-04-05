@@ -6,7 +6,12 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'siyuan': ['Source Han Serif CN Heavy', 'sans-serif'],
+        'roman': ['Roman', 'sans-serif']
+      },
+    },
   },
   plugins: [],
 }
