@@ -33,9 +33,9 @@ export default function Home ({Product}) {
                           <img src="https://s2.loli.net/2023/03/30/k8rfFEi2Phl9YO3.png" alt="logo" className="w-40 h-auto mt-36 -ml-3" />
                       </div>
                       <div className="flex flex-col">
-                          {Product.map((tea) => (
-                              <div className="mt-5 w-full min-w-0 md:mt-0">
-                                  <dl className="grid grid-cols-1 gap-x-4 gap-y-4 md:max-w-5xl lg:gap-y-16">
+                          <div className="mt-5 w-full min-w-0 md:mt-0">
+                              <dl className="grid grid-cols-1 gap-x-4 gap-y-4 md:max-w-5xl lg:gap-y-16">
+                                  {Product.map((tea) => (
                                       <div
                                           className="relative p-8 flex flex-row gap-10"
                                           key={tea.id}
@@ -56,9 +56,9 @@ export default function Home ({Product}) {
                                               <img src={tea.image} alt="photo" className="mt-4 w-[1000px]"/>
                                           </div>
                                       </div>
-                                  </dl>
-                              </div>
-                          ))}
+                                  ))}
+                              </dl>
+                          </div>
                       </div>
                   </div>
               </div>
